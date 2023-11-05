@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My libary</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            font-size: 16px;
+            color:#d02020;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header {
+            background-color: #111313;
+            color: #100d0f;
+            text-align: center;
+            padding: 1rem 0;
+            position: relative; /* Add this */
+        }
+
+        .header-content h1 {
+            font-size: 2.5rem;
+        }
+        .header b{
+            background:#9c1111;
+            color:rgb(0, 255, 26);
+            padding: 10px;
+        } 
+        .header marquee{
+            font-size: 20px;
+            color:#05ecd5;
+            width: 80%;
+        }
+        .container{
+            width: 1300px;
+            margin: 0px auto;
+        }
+        .logo{
+            height:100px;
+        }
+        .slider img{
+            width:100%;
+        }
+        .title{
+            position: absolute;
+            top:80%;
+            left: 60%;
+            transform: translate(-80%,-60%);
+        }
+        .title h1{
+            color:black;
+            font-size: 50px;
+            text-shadow:2px 2px rgb(119, 0, 255);
+        }
+        nav {
+            
+            color: #ffffff;
+            text-align:right;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 25px 0px;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 30px;
+            
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #a305ec;
+            font-size: 30px;
+        }
+        nav ul li a:hover{
+            color: #05ec56;
+        }
+
+        .section-content {
+            background-color: #111010;
+            padding: 2rem;
+            margin: 1rem;
+            border-radius: 20px;
+            box-shadow: 0 0 10px rgba(218, 26, 26, 0.1);
+            text-align: justify;
+        }
+        .section-content h2{
+            color: #a305ec;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1rem 0;
+            background-color: #eb0725;
+            color: #090909;
+            font-size: larger;
+        }
+
+        ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <title> libary</title>
+        <div class="header">
+            <b>NEWS :</b>
+        <marquee>
+            My library: Intelligence plus curiosity
+        </marquee>        
+        </div>
+        </header>
+        <div class="container">
+            <img src="images/logo.png"class="logo">
+        </div>
+        <div class="title">
+            <h1> My library</h1>
+        </div>
+        
+        
+    <nav>
+        <ul>
+            <li><a href="#About">About</a></li>
+            <li><a href="#books">books</a></li>
+           
+        </ul>
+    </nav>
+        <div class="slider">
+            <img src="images/slider.PNG">
+        </div>
+
+    <section id="About">
+        <div class="section-content">
+            <h2>About Me</h2>
+            <p>Libraries provide physical (hard copies) or digital (soft copies) materials, 
+                and may be a physical location, a virtual space, or both. A library's collection normally includes printed 
+                materials which may be borrowed, and usually also includes a 
+                reference section of publications which may only be utilized inside the premises. </p>
+        </div>
+    </section>
+    
+
+    <section id="books">
+        <div class="section-content">
+            <h2>books</h2>
+            <ul>
+                <li> Connect student library collection and possible another materials and media that is acess</li>
+                <li> connect students books </li>
+                <li> Recruit popular </li>
+                <li> creative books,library</li>
+            </ul>
+        </div>
+    </section>
+            
+        </div>
+    </section>
+        <footer>
+            <p>&copy; My library</p>
+        </footer>
+        
+    <script>
+                if (targetElement) {
+                    window.scrollTo({
+                        top: targetElement.offsetTop,
+                        behavior: 'smooth'
+                    });
+                }
+            
+        
+    </script>
+</body>
+</html>
